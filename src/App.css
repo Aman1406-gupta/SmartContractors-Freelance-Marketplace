@@ -1,0 +1,175 @@
+.App {
+  min-height: 100vh;
+}
+
+.loading-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  background-image: url(./images/Loading_Screen.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  transition: opacity 1s ease-in;
+  z-index: 9999;
+}
+
+.loading-screen.fade-out {
+  opacity: 0;
+}
+
+.container{
+  margin-left: 3%;
+}
+
+.navbar-text {
+  margin-left: 10px;
+}
+
+.nav-link.btn-link {
+  background: none;
+  border: none;
+  color: blue;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+}
+
+.nav-item{
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.nav-link.btn-link:hover {
+  background-color: rgb(148, 194, 255);
+}
+
+.Logo{
+  width: auto;
+  height: 60px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.switch:hover{
+  color: white;
+  background-color: black;
+}
+
+.switch{
+  color: black;
+  font-size: 1.2rem;
+  background-color: white;
+}
+
+.account-id{
+  position:absolute;
+  right: 3%;
+}
+
+.badge{
+  background-color: blue; 
+  color: white; 
+  font-size: 1rem;
+  height: 38px;
+  padding: 0.5rem; 
+  border-radius: 0.25rem;
+}
+
+.badge2{
+  font-size: 1rem;
+  height: 38px; 
+  border-radius: 0.25rem;
+}
+
+.card {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card-footer {
+  background-color: rgba(0, 0, 0, 0.02);
+}
+
+.service-card {
+  width: 30%;
+}
+
+.submit-btn {
+  margin-top: 10px;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+h2{
+  color: black;
+}
+
+.App{
+  background-color: white;
+}
+
+.active-tab {
+  background-color: #d3d3d3;
+  border-radius: 5px;
+  background-color: blue !important;
+  color: white !important;
+}
+
+.message{
+  opacity: 1;
+  transition: opacity 5s ease-in-out;
+}
+
+.message.fade-out {
+  opacity: 0;
+}
+
+.status-badge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.9rem;
+  width:30%;
+  border-radius: 0.3rem;
+}
+
+.badge-success {
+  color: green;
+}
+
+.badge-warning {
+  color: goldenrod;
+}
+
+.badge-danger {
+  color: red;
+}
+
+.alert.alert-danger {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.alert.alert-danger.show {
+  opacity: 1;
+}
+
+.alert.alert-success {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.alert.alert-success.show {
+  opacity: 1;
+}
+
